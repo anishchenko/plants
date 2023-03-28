@@ -134,6 +134,7 @@ body {
   padding: 14px 27px;
   border: 2px solid #E06733;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .welcome__button {
@@ -244,6 +245,99 @@ body {
   /* width: 100%; */
   text-align: center;
   color: #717171;
+}
+
+.prices__container {
+  padding-top: 40px;
+  padding-bottom: 115px;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prices__block {
+  width: 50%;
+}
+
+.contact__block {
+  width: 50%;
+}
+
+.prices__title {
+  font-weight: 700;
+  line-height: 48px;
+  color: #000000;
+}
+
+.prices__form {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 41px;
+  width: 71%;
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+}
+
+.prices__label {
+  position: relative;
+  margin-bottom: 32px;
+  padding: 16px 110px 16px 40px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  background-color: #EDF2EC;
+  border-radius: 20px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.prices__label::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/svg/arrow_down.svg);
+  top: 17px;
+  right: 40px;
+}
+
+.prices__label:last-child {
+  margin-bottom: 0;
+}
+
+.prices__input {
+  display: none;
+}
+
+.prices__contact {
+  background: url(../img/leafs_4pcs.png) right/ 120px no-repeat;
+  background-position-y: 230px;
+}
+
+.prices__title-contact {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: right;
+  color: #000000;
+}
+
+.prices__title-red {
+  color: #499A18;
+}
+
+.prices__button {
+  margin-top: 38px;
+  float: right;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  background-color: #ffffff;
+  color: #E06733;
 }
 
 .footer {
