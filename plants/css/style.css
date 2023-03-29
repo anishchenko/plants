@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -79,7 +80,9 @@ body {
   color: #010201;
 }
 
-.nav__link:hover {
+.nav__link:hover, 
+.nav__link:focus {
+  transition: 0.5s;
   color: #E06733;
 }
 
@@ -131,6 +134,14 @@ body {
   border: 2px solid #E06733;
   border-radius: 10px;
   cursor: pointer;
+
+}
+
+.button:hover,
+.button:focus {
+  transition: 0.5s;
+  background-color: #E06733;
+  color: #ffffff;
 }
 
 .welcome__button {
@@ -220,6 +231,7 @@ body {
 
 .services__item:hover,
 .services__item:focus {
+  transition: 0.5s;
   border: 1px solid #E06733;
 }
 
@@ -373,7 +385,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 40px;
-  background-color: #D6E7D2;
+  background-color: #C1E698;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #717171;
   cursor: pointer;
@@ -390,8 +402,40 @@ body {
   right: 35px;
 }
 
-.contacts__input {
+.cities {
   display: none;
+}
+
+.contacts__input {
+  /* display: none; */
+  visibility: hidden;
+}
+
+.cities__item {
+  margin: 0;
+  padding: 0;
+  margin-top: 12px;
+  border-bottom: 1px solid #E9D9D9;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #499A18;
+}
+
+.cities__item:hover {
+  color: #717171;
+  cursor: pointer;
+}
+
+.contacts__input:checked + .cities {
+  position: absolute;
+  display: block;
+  background-color: #DCE9D9;
+  width: 33.6%;
+  right: 2.6%;
+  padding: 3%;
+  text-align: left;
+  /* background-color: blanchedalmond; */
 }
 
 .footer__container {
@@ -424,6 +468,12 @@ body {
   color: #000000;
 }
 
+.footer__link-git:hover,
+.footer__link-git:focus {
+  transition: 0.5s;
+  color: #E06733;
+}
+
 .footer__title {
   order: 2;
   margin: 0;
@@ -451,17 +501,17 @@ body {
 }
 
 .footer__link-inst {
-  background: url(../img/svg/instagram.svg) no-repeat;
+  background: url(../img/svg/instagram.svg) center no-repeat;
 }
 
 .footer__link-face {
-  background: url(../img/svg/facebook.svg) no-repeat;
+  background: url(../img/svg/facebook.svg) center no-repeat;
 }
 
 .footer__link-twi {
-  background: url(../img/svg/twitter.svg) no-repeat;
+  background: url(../img/svg/twitter.svg) center no-repeat;
 }
 
 .footer__link-pint {
-  background: url(../img/svg/pinterest.svg) no-repeat;
+  background: url(../img/svg/pinterest.svg) center no-repeat;
 }

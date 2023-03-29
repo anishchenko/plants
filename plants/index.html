@@ -24,10 +24,10 @@
       <nav class="navigation">
         <ul class="nav">
           <li class="nav__item"><a class="nav__link nav__link-active" href="#">Home</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">About us</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Service</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Price</a></li>
-          <li class="nav__item"><a class="nav__link" href="#">Contacts</a></li>
+          <li class="nav__item"><a class="nav__link" href="#about">About us</a></li>
+          <li class="nav__item"><a class="nav__link" href="#services">Service</a></li>
+          <li class="nav__item"><a class="nav__link" href="#prices">Price</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
     </div>
@@ -41,13 +41,13 @@
       </section>
     </div>
     <div class="container container-white">
-      <section class="about">
+      <section class="about" id="about">
         <h2 class="about__title section-title">We are professional experienced gardeners</h2>
         <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam culpa hic ducimus quae sint labore incidunt officia nulla inventore reiciendis sequi, autem quidem sed impedit! Accusamus sequi quasi nemo iste nobis ipsum id! Corporis deserunt officiis tempore quo qui sint repellendus quaerat pariatur cupiditate eos, praesentium laudantium natus itaque tenetur!</p>
       </section>
     </div>
     <div class="container services__container">
-      <section class="services">
+      <section class="services" id="services">
         <h2 class="services__title section-title">Service and our projects</h2>
         <button class="button services__button">Gardens</button>
         <button class="button services__button">Lawn</button>
@@ -113,7 +113,7 @@
     </div>
 
     <div class="container container-white prices__container">
-      <section class="prices">
+      <section class="prices" id="prices">
         <div class="prices__block">
           <h2 class="prices__title section-title">Prices</h2>
           <form class="prices__form" action="">
@@ -135,12 +135,17 @@
       </section>
     </div>
     <div class="container contacts__container">
-      <section class="contacts">
+      <section class="contacts" id="contacts">
         <h2 class="contacts__title section-title">Contact us</h2>
         <form class="contacts__form" action="#">
-          <label class="contacts__label" for="contacts__radio"> City
-            <input class="contacts__input" type="radio" name="contacts__radio">
-          </label>
+          <label class="contacts__label" for="contacts__id">City</label>
+          <input class="contacts__input" type="checkbox" name="contacts__checkbox" id="contacts__id" value="Canandaigua">
+          <div class="cities">
+            <p class="cities__item">Canandaigua, NY</p>
+            <p class="cities__item">New York City</p>
+            <p class="cities__item">Yorkers, NY</p>
+            <p class="cities__item">Sherrill, NY</p>
+          </div>
         </form>
       </section>
     </div>
