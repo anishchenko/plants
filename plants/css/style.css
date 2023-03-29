@@ -20,9 +20,9 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
-  padding: 0 110px;
+  padding: 0 7.7%;
   background-color: #EDF2EC;
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .nav__item {
-  padding: 0 0 0 46px;
+  padding: 0 0 0 43px;
   color: #010201;
 }
 
@@ -94,8 +94,8 @@ body {
 }
 
 .welcome {
-  padding-top: 110px;
-  padding-bottom: 94px;
+  padding-top: 8%;
+  padding-bottom: 7.3%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -106,7 +106,7 @@ body {
 .welcome__title {
   margin: 0;
   padding: 0;
-  width: 48%;
+  width: 45%;
   font-size: 45px;
   font-weight: 700;
   line-height: 50px;
@@ -120,22 +120,22 @@ body {
 .welcome__text {
   margin: 0;
   margin-top: 42px;
-  width: 48%;
+  width: 45%;
   font-size: 20px;
   line-height: 35px;
   color: #636060;
 }
 
 .button {
-  padding: 14px 27px;
+  padding: 1% 2%;
   border: 2px solid #E06733;
   border-radius: 10px;
   cursor: pointer;
 }
 
 .welcome__button {
-  margin-top: 48px;
-  margin-right: 400px;
+  margin-top: 4%;
+  margin-right: 32%;
   text-transform: uppercase;
 }
 
@@ -144,8 +144,9 @@ body {
 }
 
 .about {
-  padding-top: 161px;
-  padding-bottom: 155px;
+
+  padding-top: 13%;
+  padding-bottom: 15%;
   background-color: #ffffff;
   background-image: url(../img/houseplant1.png);
   background-repeat: no-repeat;
@@ -175,18 +176,20 @@ body {
 }
 
 .services__container {
-  padding-top: 40px;
-  padding-bottom: 100px;
+  padding-top: 3%;
+  padding-bottom: 5%;
 }
 
 .services__title {
   display: inline-block;
-  margin-right: 140px;
+  margin-right: 11%;
   width: 25%;
 }
 
 .services__button {
-  margin-right: 40px;
+  margin-right: 2.5%;
+  width: 13.5%;
+  vertical-align: text-bottom;
   border-radius: 5px;
   font-size: 20px;
   color: #E06733;
@@ -201,7 +204,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0;
-  margin-top: 90px;
+  margin-top: 6%;
   padding: 0;
   list-style: none;
 }
@@ -244,8 +247,8 @@ body {
 }
 
 .prices__container {
-  padding-top: 40px;
-  padding-bottom: 115px;
+  padding-top: 3%;
+  padding-bottom: 9.5%;
 }
 
 .prices {
@@ -262,6 +265,7 @@ body {
 }
 
 .prices__title {
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   line-height: 48px;
   color: #000000;
@@ -270,8 +274,9 @@ body {
 .prices__form {
   display: flex;
   flex-direction: column;
-  padding: 34px 41px;
-  width: 71%;
+  margin-top: 10%;
+  padding: 5.5% 7% 4% 7%;
+  width: 55%;
   border: 1px solid #E3E1D5;
   border-radius: 20px;
 }
@@ -309,8 +314,10 @@ body {
 }
 
 .prices__contact {
-  background: url(../img/leafs_4pcs.png) right/ 120px no-repeat;
-  background-position-y: 230px;
+  width: 40%;
+  background: url(../img/leafs_4pcs.png) no-repeat;
+  background-position-y: 107%;
+  background-position-x: 103%;
 }
 
 .prices__title-contact {
@@ -327,7 +334,8 @@ body {
 }
 
 .prices__button {
-  margin-top: 38px;
+  margin-top: 8%;
+  padding: 2% 5%;
   float: right;
   font-size: 20px;
   font-weight: 700;
@@ -337,29 +345,31 @@ body {
 }
 
 .contacts__container {
-  padding-top: 40px;
+  padding-top: 4%;
 }
 
 .contacts {
-  padding-top: 25px;
-  min-height: 550px;
+  padding-top: 1%;
+  min-height: 500px;
   background: url(../img/contact_woman1.png) left/ contain no-repeat;
 }
 
 .contacts__title {
+  font-family: 'Inika', serif;
   text-align: center;
   font-weight: 700;
+  line-height: 52px;
   color: #499A18;
 }
 
 .contacts__form {
-  margin-top: 37px;
+  margin-top: 3%;
   text-align: right;
 }
 
 .contacts__label {
   position: relative;
-  padding: 13px 393px 13px 20px;
+  padding: 1% 32% 1% 2%;
   font-size: 20px;
   font-weight: 400;
   line-height: 40px;
@@ -387,8 +397,8 @@ body {
 .footer__container {
   display: flex;
   justify-content: space-between;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 2.7%;
+  padding-bottom: 2.5%;
   background-color: #ffffff;
 }
 
@@ -396,7 +406,7 @@ body {
   order: 1;
   display: flex;
   justify-content: space-between;
-  width: 180px;
+  width: 14%;
 }
 
 .footer__copy,
@@ -430,7 +440,7 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
-  width: 180px;
+  width: 15.5%;
   list-style: none;
 }
 
