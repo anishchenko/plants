@@ -37,6 +37,7 @@ body {
 .logo {
   display: block;
   margin: 0;
+  text-decoration: none;
 }
 
 .logo__figure {
