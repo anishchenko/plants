@@ -30,18 +30,19 @@ body {
 .header__container {
   display: flex;
   justify-content: space-between;
-  /* background-color: #EDF2EC; */
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
 .logo {
+  display: block;
   margin: 0;
-  padding-top: 52px;
-  padding-bottom: 55px;
 }
 
-.logo__link {
+.logo__figure {
   display: flex;
   align-items: baseline;
+  margin: 0;
   text-decoration: none;
   color: #000000;
 }
@@ -55,7 +56,7 @@ body {
 
 .nav {
   margin: 0;
-  padding: 42px 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -251,10 +252,13 @@ body {
 }
 
 .services__text {
+  display: block;
   margin: 0;
   margin-top: 4%;
-  /* width: 100%; */
+  font-size: 16px;
+  font-weight: 400;
   text-align: center;
+  line-height: 20px;
   color: #717171;
 }
 
