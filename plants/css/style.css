@@ -393,7 +393,8 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 40px;
-  background-color: #C1E698;
+  background-color: #D6E7D2;
+  /* background-color: #C1E698; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #717171;
   cursor: pointer;
@@ -524,9 +525,9 @@ body {
   background: url(../img/svg/pinterest.svg) center no-repeat;
 }
 
-@media screen and (width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
-    width: 768px;
+    width: 100%;
     padding: 0 6.5%;
   }
 
@@ -725,3 +726,203 @@ body {
     padding-top: 1%;
   }
 }
+
+@media screen and (max-width:380px) {
+  .logo {
+    margin-top: 5%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .welcome {
+    padding-top: 13%;
+    padding-bottom: 7%;
+    background: none;
+  }
+
+  .welcome__title {
+    width: 100%;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .welcome__text {
+    width: 100%;
+    margin-top: 6%;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .welcome__button {
+    margin-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .about {
+    padding-top: 10%;
+    padding-bottom: 54%;
+    background-size: 150px 147px;
+    background-position-y: 340px;
+  }
+
+  .about__title {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .about__text {
+    margin-top: 4.5%;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .services__container {
+    padding-top: 8.5%;
+    padding-bottom: 0;
+  }
+
+  .services__title {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .services__button {
+    width: 36%;
+    margin-top: 12%;
+    margin-right: 2%;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .services__button-no-margin {
+    margin-top: 3%;
+  }
+
+  .services__list {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 12%;
+  }
+
+  .services__item-last{
+    margin-bottom: 8.5%;
+  }
+
+  .prices__container {
+    padding-bottom: 10.5%;
+  }
+
+  .prices {
+    flex-direction: column;
+  }
+
+  .prices__block {
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 16%;
+    padding-right: 16%;
+  }
+
+  .prices__title {
+    padding: 0;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .prices__form {
+    padding: 10.5% 10% 9% 10%;
+  }
+
+  .prices__label {
+    margin-bottom: 8%;
+    padding: 10.5% 8% 8% 16%;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  .prices__contact {
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .prices__title-contact {
+    width: 72%;
+    margin: 0 auto;
+    padding-top: 6%;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .prices__button {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    margin-top: 6%;
+    padding: 2% 6%;
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .contacts__container {
+    padding-top: 7%;
+  }
+
+  .contacts {
+    background-size: 100px 125px;
+    background-position-x: 49.5%;
+  }
+
+  .contacts__title {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .contacts__form {
+    margin-top: 24%;
+    padding-left: 4%;
+    padding-right: 5%;
+  }
+
+  .contacts__label {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #D6E7D2;
+  }
+
+  .contacts__label::after {
+    top: 17px;
+    right: 23px;
+  }
+
+  .footer__container {
+    padding-top: 3%;
+  }
+
+  .footer__title {
+    line-height: 30px;
+  }
+
+  .footer__data {
+    width: 53%;
+  }
+
+  .footer__list {
+    width: 58%;
+    padding-top: 2%;
+  }
+}
+
