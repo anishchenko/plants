@@ -23,15 +23,16 @@ body {
 .container {
   width: 1440px;
   margin: 0 auto;
-  padding: 0 6%;
+  padding: 0 6.875rem;
   background-color: #EDF2EC;
 }
 
 .header__container {
   display: flex;
   justify-content: space-between;
-  padding-top: 4%;
-  padding-bottom: 4%;
+  align-items: baseline;
+  padding-top: 2.625rem;
+  padding-bottom: 2.625rem;
 }
 
 .logo {
@@ -99,12 +100,12 @@ body {
 }
 
 .welcome {
-  padding-top: 8%;
-  padding-bottom: 7.7%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-end;
+  padding-top: 6.125rem;
+  padding-bottom: 5.7rem;
   background: url(../img/leafs_5pcs.png) no-repeat left center;
 }
 
@@ -157,8 +158,8 @@ body {
 }
 
 .about {
-  padding-top: 13%;
-  padding-bottom: 12.5%;
+  padding-top: 10rem;
+  padding-bottom: 9.5rem;
   background-color: #ffffff;
   background-image: url(../img/houseplant1.png);
   background-repeat: no-repeat;
@@ -188,19 +189,20 @@ body {
 }
 
 .services__container {
-  padding-top: 2.2%;
-  padding-bottom: 3.5%;
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
 }
 
 .services__title {
   display: inline-block;
-  margin-right: 11%;
-  width: 25%;
+  margin-right: 8.6rem;
+  width: 19rem;
 }
 
 .services__button {
-  margin-right: 2.5%;
-  width: 13.5%;
+  margin-right: 2.2rem;
+  margin-bottom: 1rem;
+  width: 10rem;
   vertical-align: text-bottom;
   border-radius: 5px;
   font-size: 20px;
@@ -216,15 +218,15 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0;
-  margin-top: 6.5%;
+  margin-top: 5rem;
   padding: 0;
   list-style: none;
 }
 
 .services__item {
   display: block;
-  margin-bottom: 16%;
-  padding-bottom: 12%;
+  margin-bottom: 3.4rem;
+  padding-bottom: 2.25rem;
   /* width: 23%; */
   border: 1px solid #E3E1D5;
   border-radius: 20px 20px 20px 20px;
@@ -264,8 +266,8 @@ body {
 }
 
 .prices__container {
-  padding-top: 2%;
-  padding-bottom: 6.8%;
+  padding-top: 2.5rem;
+  padding-bottom: 8rem;
 }
 
 .prices {
@@ -274,7 +276,7 @@ body {
 }
 
 .prices__block {
-  width: 50%;
+  /* width: 50%; */
 }
 
 .contact__block {
@@ -291,17 +293,17 @@ body {
 .prices__form {
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
-  padding: 6.5% 7% 4% 6%;
-  width: 54%;
+  margin-top: 3.75rem;
+  padding: 2.125rem 2.5rem;
+  width: 20.75rem;
   border: 1px solid #E3E1D5;
   border-radius: 20px;
 }
 
 .prices__label {
   position: relative;
-  margin-bottom: 14%;
-  padding: 5% 1% 5% 15%;
+  margin-bottom: 1.8rem;
+  padding: 1rem 6.875rem 1rem 2.5rem;
   font-size: 20px;
   font-weight: 700;
   line-height: 20px;
@@ -318,8 +320,8 @@ body {
   width: 16px;
   height: 16px;
   background-image: url(../img/svg/arrow_down.svg);
-  top: 17px;
-  right: 40px;
+  top: 1rem;
+  right: 2.5rem;
 }
 
 .prices__label:last-child {
@@ -331,10 +333,10 @@ body {
 }
 
 .prices__contact {
-  width: 40%;
+  width: 28.25rem;
   background: url(../img/leafs_4pcs.png) no-repeat;
-  background-position-y: 109%;
-  background-position-x: 105%;
+  background-position-y: 14rem;
+  background-position-x: 18.5rem;
 }
 
 .prices__title-contact {
@@ -351,8 +353,8 @@ body {
 }
 
 .prices__button {
-  margin-top: 8%;
-  padding: 2% 5%;
+  margin-top: 2.375rem;
+  padding: 0.7rem 1.6rem;
   float: right;
   font-size: 20px;
   font-weight: 700;
@@ -362,34 +364,46 @@ body {
 }
 
 .contacts__container {
-  padding-top: 3%;
+  padding-top: 3.75rem;
+  padding-bottom: 27.5rem;
+  background: url(../img/contact_woman1.png) no-repeat;
+  background-position-x: 6.8rem;
+  background-position-y: bottom;
 }
 
 .contacts {
   /* padding-top: 1%; */
   /* min-height: 500px; */
   /* background: url(../img/contact_woman1.png) left/ contain no-repeat; */
-  padding-bottom: 29.5%;
-  background: url(../img/contact_woman1.png) no-repeat;
-  background-position-x: -0.5%;;
+
+  /* padding-bottom: 29.5%; */
+  /* background: url(../img/contact_woman1.png) no-repeat;
+  background-position-x: -0.5%; */
 }
 
 .contacts__title {
   font-family: 'Inika', serif;
   text-align: center;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 50px;
   color: #499A18;
 }
 
 .contacts__form {
-  margin-top: 3%;
-  text-align: right;
+  margin-top: 2.2rem;
+  float: right;
+  width: 28.125rem;
+  /* text-align: right; */
 }
 
 .contacts__label {
   position: relative;
-  padding: 1% 32% 1% 2%;
+  display: block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  padding-left: 1.25rem;
+  /* padding: 0.3125rem 0.3125rem 1.25rem; */
+  /* padding: 1% 86% 1% 6%; */
   font-size: 20px;
   font-weight: 400;
   line-height: 40px;
@@ -406,18 +420,19 @@ body {
   display: block;
   width: 16px;
   height: 16px;
-  background-image: url(../img/svg/arrow_down.svg);
+  background-image: url(../img/svg/accordion_btn.svg);
   top: 17px;
   right: 35px;
 }
 
-.cities {
+.contacts__input {
   display: none;
+  /* visibility: hidden; */
 }
 
-.contacts__input {
-  /* display: none; */
-  visibility: hidden;
+.cities {
+  transition: 0.5s;
+  display: none;
 }
 
 .cities__item {
@@ -427,31 +442,47 @@ body {
   border-bottom: 1px solid #E9D9D9;
   font-size: 16px;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 35px;
   color: #499A18;
 }
 
-.cities__item:hover {
-  color: #717171;
-  cursor: pointer;
+.cities__item:first-of-type {
+  margin-top: 0;
 }
 
-.contacts__input:checked + .cities {
-  position: absolute;
+.cities__item:hover {
+  transition: 0.5s;
+  color: #717171;
+  cursor: pointer;
+  border-color: #717171;
+}
+
+.contacts__input:checked ~ .contacts__label {
+  background-color: #C1E698;
+  box-shadow: none;
+}
+
+.contacts__input:checked + .contacts__label::after {
+  transition: 0.5s;
+  transform: rotate(180deg);
+  filter: brightness(1.2);
+}
+
+.contacts__input:checked ~ .cities {
+  transition: 0.5s;
   display: block;
   background-color: #DCE9D9;
-  width: 24%;
-  right: 19%;
-  padding: 2%;
+  width: 100%;
+  /* margin-top: -2%; */
+  padding: 1.6rem 3.15rem 2rem 1.25rem;
   text-align: left;
-  /* background-color: blanchedalmond; */
 }
 
 .footer__container {
   display: flex;
   justify-content: space-between;
-  padding-top: 2.2%;
-  padding-bottom: 2.5%;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   background-color: #ffffff;
 }
 
@@ -727,7 +758,7 @@ body {
   }
 }
 
-@media screen and (max-width:380px) {
+@media screen and (320px<=width<=380px) {
   .logo {
     margin-top: 5%;
   }
@@ -924,5 +955,12 @@ body {
     width: 58%;
     padding-top: 2%;
   }
+}
+
+@media screen and (max-width:379px) {
+  .about {
+    background-position-y: bottom;
+  }
+  
 }
 
